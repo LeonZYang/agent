@@ -1,0 +1,20 @@
+{
+    "debug": false,
+    "hostname": "",
+    "ip": "",
+    "heartbeat": {
+        "enabled": true,
+        "addr": "127.0.0.1:6030",
+        "interval": 60,
+        "timeout": 1000
+    },
+    "transfer": {
+        "enabled": true,
+        "addr": "127.0.0.1:8433",
+        "interval": 60,
+        "timeout": 1000
+    },
+    "ignore": {
+        "cpu.busy": true
+    }
+}
